@@ -1,0 +1,123 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>安徽利和自动化工程有限公司</title>
+<meta name="keywords" content="利和,安徽利和," />
+<meta name="description" content="安徽利和自动化工程有限公司" />
+<link href="./css/common.css" rel="stylesheet" type="text/css" />
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+<script src="./js/common.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="logo">
+			<div class="top">
+				<div class="margin-marquee">
+					<!--<span class="top_left">欢迎您访问安徽利和自动化工程有限公司官网！</span>-->
+					<marquee behavior="alternate">欢迎您访问安徽利和自动化工程有限公司官网！</marquee>
+				</div>
+			</div>
+			<div class="margin-width">
+				<a href="index.html" title="安徽利和自动化工程有限公司" style="text-decoration: none" ><img src="./img/logo.jpg" height="120px" border="0"/></a>
+			</div>
+		</div>
+	</div>
+	<div class="margin">
+		<div id="nav">
+			<ul class="navfirst margin-width">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">关于利和</a></li>
+				<li><a href="news.html">新闻动态</a></li>
+				<li><a href="product.html">主营业务</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var urlstr = location.href;
+		var urlstatus=false;
+		$("#nav a").each(function () {
+			if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+				$(this).addClass('current'); urlstatus = true;
+			} else {
+				$(this).removeClass('current');
+			}
+		});
+		if (!urlstatus) {$("#nav a").eq(0).addClass('current'); }
+	</script>
+	<div class="about">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<th style="height:8px;width:20%"></th>
+				<th style="height:8px;"></th>
+			</tr>
+			<tr>
+				<td valign="top" bgColor="#f3f3f3" align="center">
+				<aside class="accordion">
+					<a href="index.html" style="text-decoration: none"><h2 style="font-family:微软雅黑;font-size:15px;color:#fff;">|----首页----|</h2></a>
+					<a href="about.html" style="text-decoration: none"><h2 style="font-family:微软雅黑;font-size:15px;color:#fff;">|--关于利和--|</h2></a>
+					<a href="news.html" style="text-decoration: none"><h2 style="font-family:微软雅黑;font-size:15px;color:#fff;">|--新闻动态--|</h2></a>
+					<a href="product.html" style="text-decoration: none"><h2 style="font-family:微软雅黑;font-size:15px;color:#fff;background-color:#0099dd;">|--主营业务--|</h2></a>
+					<a href="contact.html" style="text-decoration: none"><h2 style="font-family:微软雅黑;font-size:15px;color:#fff;">|--联系我们--|</h2></a>
+				</aside>
+				<br/>
+				<aside class="accordion">
+					<h3>高低压开关设备</h3>
+						<div>
+							<h4>高压开关设备</h4>
+							<h4>低压开关设备</h4>
+						</div>
+					<h3>桥架系列</h3>
+						<div>
+							<h4>桥架系列</h4>
+						</div>
+					<h3>母线槽系列</h3>
+						<div>
+							<h4>高低压母线</h4>
+						</div>
+					<h3>仪器仪表</h3>
+						<div>
+							<h4>工业热电偶</h4>
+							<h4>工业热电阻</h4>
+							<h4>压力开关/温度开关</h4>
+							<h4>液位计/流量计/安全栅</h4>
+							<h4>SWP智能显示仪表</h4>
+							<h4>智能电力监测仪</h4>
+							<h4>电量变送器</h4>
+							<h4>特殊热电偶/热电阻</h4>
+							<h4>温度变送器</h4>
+							<h4>压力变送器</h4>
+							<h4>双金属温度计</h4>
+							<h4>压力表系列</h4>
+						</div>
+					<h3>阀门及管阀件</h3>
+						<div>
+							<h4>电动调节阀</h4>
+							<h4>管件与阀门</h4>
+							<h4>气动调节阀</h4>
+						</div>
+					<h3>光电缆系列</h3>
+						<div>
+							<h4>光缆</h4>
+							<h4>电缆</h4>
+							<h4>数据电缆</h4>
+							<h4>桥架母线</h4>
+						</div>
+				</aside>
+				</td>
+				<td>&nbsp&nbsp</td>
+				<td valign="top">
+					<iframe id="mainproduct" name="mainproduct" src="product/0.html" scrolling="no" frameborder="0" width="100%" height="400px" marginheight="0" marginwidth="0" ></iframe>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer">
+		<div class="copy">
+安徽利和自动化工程有限公司   版权所有    Copyright 2016 All Right Reserved
+<br /><br />
+           地址：安徽省天长市永福东路  |  联系人：夏经理  |  联系电话：13816643434  |  传真：0550-7097997
+ <br /><br />
+		</div>
+	</div>
+</body>

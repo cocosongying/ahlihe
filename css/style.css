@@ -1,0 +1,70 @@
+.accordion {
+  margin: 0px auto;
+}
+.accordion h1, h2, h3, h4 {
+  cursor: pointer;
+}
+.accordion h2, h3, h4 {
+  font-family: "News Cycle";
+}
+.accordion h1 {
+  padding: 15px 20px;
+  background-color: #0099cc;
+  font-family: Lobster;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #333;
+}
+.accordion h1:hover {
+  color: #4afcdc;
+}
+.accordion h1:first-child {
+  border-radius: 0 0 0 0;
+}
+.accordion h1:last-of-type {
+  border-radius: 0 0 0 0;
+}
+.accordion h1:not(:last-of-type) {
+  border-bottom: 1px dotted #1abc9c;
+}
+.accordion div, .accordion p {
+  display: none;
+}
+.accordion h2 {
+  padding: 5px 25px;
+  background-color: #ccccff;
+  font-size: 1.1rem;
+  color: #333;
+}
+.accordion h2:hover {
+  background-color: #0088cc;
+}
+.accordion h3 {
+  padding: 5px 30px;
+  background-color: #ccccff;
+  font-size: .9rem;
+  color: #444; 
+}
+.accordion h3:hover {
+  background-color: #0088cc;
+}
+.accordion h4 {
+  padding: 5px 35px;
+  background-color: #ffffcc;
+  font-size: .8rem;
+  color: #888; 
+}
+.accordion h4:hover {
+  background-color: #0088cc;
+}
+.accordion p {
+  padding: 15px 35px;
+  background-color: #ddd;
+  font-family: "Georgia";
+  font-size: .8rem;
+  color: #333;
+  line-height: 1.3rem;
+}
+.accordion .opened-for-codepen {
+  display: block;
+}
